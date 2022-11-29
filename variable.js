@@ -1,3 +1,6 @@
+// javascript is Dynamic language with Dynamic type variable
+
+
 //three types of variable are there in js: let, const, var
 
 
