@@ -1,4 +1,4 @@
-// javascript is Dynamic language with Dynamic type variable
+// javascript is Dynamic language with Dynamic variable type 
 
 
 //three types of variable are there in js: let, const, var
@@ -6,6 +6,8 @@
 
 
 let x;    //variable with undefined value
+
+// const tu;    //const cant be undefined
 
 
 x="name"
@@ -40,3 +42,20 @@ let d = 5+ 8 + "5"  //quotation int will be treated as string & concatenate
 console.log(d)  //
 
 
+
+
+
+let f = null
+console.log(f)
+
+
+
+//let scope is on bolck level 
+{
+    let a = "India"
+    console.log(a)
+}
+
+
+// let a = 90  //let cant be re-declarable
+console.log(a)
