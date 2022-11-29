@@ -4,6 +4,12 @@
 //three types of variable are there in js: let, const, var
 
 
+let r = 8   //fixed value like num or string are called Literals
+let q = 9
+
+let s = r + q   //variable values are called Variables
+
+
 
 let x;    //variable with undefined value
 
