@@ -59,3 +59,15 @@ console.log("after decrease in previous line", a)
 
 // Bitwise operators are used to do bitwise functions
 // like:  &, |, ~, ^, <<, >>, >>>
+
+
+
+
+
+// single line comment
+
+
+/* multi
+line
+comment
+*/
