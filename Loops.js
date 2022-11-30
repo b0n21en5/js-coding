@@ -1,4 +1,4 @@
-// loop is used to run some specific lines of code again & again
+// loop is used to run some specific chunk of code again & again
 
 
 // for loop
