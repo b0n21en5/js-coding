@@ -154,3 +154,18 @@ let nam = "Souvik"
 let arr = Array.from(nam)  
 
 // console.log(arr)
+
+
+
+
+
+// do-while on array
+let arra7 = [1,4,7,8,10], a
+do{
+    a = prompt("enter num")
+    a = Number.parseInt(a)
+    arra7.push(a)
+
+}while(a!=0)
+
+console.log(arra7)
