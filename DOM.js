@@ -12,3 +12,7 @@ document.getElementById('demo').innerHTML = "Hello World!";
 
 
 
+
+// changing background color based on user input
+let color = prompt("Enter the page color")
+document.body.style.background = color
