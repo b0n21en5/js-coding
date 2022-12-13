@@ -3,9 +3,15 @@
 
 
 
+// strict mode with variable
+"use strict";
+const script = 'this is just a string';
 
 
 
+
+
+// strict mode with functions
 function myStrictFunction() {
 
     // Function-level strict mode syntax
