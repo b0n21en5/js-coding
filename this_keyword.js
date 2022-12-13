@@ -2,6 +2,13 @@
 // which object is depends on how this is being invoked
 
 
+// this alone acts as global object
+
+// this inside an object inside a function refers to function
+
+// this inside an event refers to an element who takes it
+
+
 const person = {
     firstName : "John",
     lastName : "Doe",
