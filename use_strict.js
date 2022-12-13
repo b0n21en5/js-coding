@@ -1,3 +1,11 @@
+// duplicate parameters can be used in regular
+// function with non-strict mode 
+
+
+
+
+
+
 function myStrictFunction() {
 
     // Function-level strict mode syntax
