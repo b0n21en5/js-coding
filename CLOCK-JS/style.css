@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    background-color: #f06d06;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#clock{
+    padding-top: 5rem;
+}
