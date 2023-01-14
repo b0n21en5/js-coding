@@ -13,7 +13,7 @@ let s = r + q   //variable values are called Variables
 
 let x;    //variable with undefined value
 
-// const tu;    //const cant be undefined
+// const tu;    //const declarations must be initialized
 
 
 x="name"
@@ -59,9 +59,33 @@ console.log(f)
 //let scope is on bolck level 
 {
     let a = "India"
-    console.log(a)
+    console.log("Let inside block: ",a)
 }
 
 
 // let a = 90  //let cant be re-declarable
-console.log(a)
+console.log("Let outside block: ",a)
+
+
+
+//defining variable with var creates global variables
+
+// variable declared without let & const is global variable
+{
+    boy = "Bikash";
+}
+console.log("boy becomes global here",boy);
+
+
+
+// null
+let useLess = null;
+console.log(typeof(useLess));  // null is a bug
+
+
+
+// NaN
+let num = 9876543210;
+
+ // isNaN checks whether value is a num  or not
+console.log(isNaN(num)); 
