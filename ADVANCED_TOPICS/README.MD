@@ -22,3 +22,4 @@
 20. Custom Element and HTML Template
 21. Shadow DOM
 22. Web Component
+23. Debounce and Throttle
