@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Debounce</title>
+  </head>
+  <body>
+    <div class="main">
+      <b class="sub-head"
+        >Type anything to see how Debounce and Throttle works in input Event</b
+      >
+      <input type="text" id="input" />
+      <div><b>Default: </b><span id="default"></span></div>
+      <div><b>Debounce: </b><span id="debounce"></span></div>
+      <div><b>Throttle: </b><span id="throttle"></span></div>
+    </div>
+
+    <div class="main">
+      <b class="sub-head">Mouse Movement Event is Capturing Below:</b>
+      <div>
+        <b>Default Mouse Move: </b><span id="default-mouse-move"></span>
+      </div>
+      <div>
+        <b>Debounce Mouse Move: </b><span id="debounce-mouse-move"></span>
+      </div>
+      <div>
+        <b>Throttle Mouse Move: </b><span id="throttle-mouse-move"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

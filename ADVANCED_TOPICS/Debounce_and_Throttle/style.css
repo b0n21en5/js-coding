@@ -1,0 +1,18 @@
+.main {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  padding: 0 100px;
+}
+
+.main input {
+  height: 50px;
+  width: 600px;
+  font-size: 40px;
+}
+
+.sub-head {
+  font-size: 20px;
+}
